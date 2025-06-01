@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ed/4cieR2IN7nUEaC5mw1om+0chhqB5uJztu8cdwPBk=",
+  "Source": "PluginImageProcessor",
+  "BasePath": "_content/PluginImageProcessor",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

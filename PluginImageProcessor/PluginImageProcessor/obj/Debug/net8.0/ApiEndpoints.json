@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "PluginImageProcessor.Controllers.ImageProcessorController",
+    "Method": "ProcessImages",
+    "RelativePath": "api/ImageProcessor/process",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tasks",
+        "Type": "System.Collections.Generic.List\u00601[[PluginImageProcessor.Core.ImageTask, PluginImageProcessor, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
