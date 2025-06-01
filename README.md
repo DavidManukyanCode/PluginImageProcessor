@@ -60,3 +60,44 @@ These are dummy plugins for simulation and logging only (no real image processin
     ]
   }
 ]
+
+
+
+📫 Example API Call via curl or Postman
+
+curl -X 'POST' \
+  'https://localhost:7041/api/ImageProcessor/process' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '[
+  {
+    "imageId": "Image1",
+    "effects": [
+      {
+        "effectName": "Resize",
+        "parameters": { "width": 100 }
+      },
+      {
+        "effectName": "Blur",
+        "parameters": { "radius": 2 }
+      }
+    ]
+  },
+  {
+    "imageId": "Image3",
+    "effects": [
+      {
+        "effectName": "Resize",
+        "parameters": { "width": 150 }
+      },
+      {
+        "effectName": "Blur",
+        "parameters": { "radius": 5 }
+      },
+      {
+        "effectName": "Grayscale",
+        "parameters": {}
+      }
+    ]
+  }
+]'
